@@ -86,7 +86,7 @@ For Azure OpenAI account:
 | ------------------------- | ---------------------------------------------- |
 | AZURE_OPENAI_API_BASE_URL | Endpoint (e.g., https://xxx.openai.azure.com). |
 | AZURE_OPENAI_API_KEY      | Key                                            |
-| AZURE_OPENAI_DEPLOYMENT   | Model deployment name                          |
+| AZURE_OPENAI_DEPLOYMENT   | Model deployment name.                          |
 
 ## Contribution
 
