@@ -1,4 +1,4 @@
-name: Publish blrchen/chatgpt-lite
+name: Publish cuttercn/chatgpt-lite
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: blrchen/chatgpt-lite
+          images: cuttercn/chatgpt-lite
       - name: Build and push multi-arch image
         uses: docker/build-push-action@v4
         with:
